@@ -1,0 +1,134 @@
+.box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0a22f4;
+  color: #ffffff;
+}
+.full {
+  background-color: #0a22f4;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  vertical-align: middle;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 461px;
+}
+.section1 p {
+}
+.section2 {
+  max-width: 672px;
+  max-width: 672px;
+  display: flex;
+  padding-top: 60px;
+  vertical-align: middle;
+  font-size: x-large;
+  padding-bottom: 122px;
+}
+
+.map {
+  max-width: 463px;
+  max-height: 197px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.my-number {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+.my-number a {
+  padding-top: 13px;
+  padding-left: 20px;
+}
+.phone-logo {
+  max-width: 26px;
+  max-height: 26px;
+  padding: 22px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.my-email {
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+.my-email a {
+  padding-top: 13px;
+  padding-left: 20px;
+}
+
+.email-logo {
+  max-width: 26px;
+  max-height: 26px;
+  padding: 22px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.section3 {
+  display: flex;
+  max-width: 346px;
+}
+
+.input {
+  border: none;
+  border-bottom: #ffffff solid 1px;
+  opacity: 0.3;
+  max-width: 463px;
+  background-color: #0a22f4;
+  width: 100%;
+  padding-top: 20px;
+  color: #ffffff;
+}
+.textarea {
+  background-color: #0a22f4;
+  border: none;
+  border-bottom: #ffffff solid 1px;
+  opacity: 0.3;
+  max-width: 463px;
+  width: 100%;
+}
+.input :nth-child(4) {
+  width: 100%;
+  height: 140px;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.button {
+  color: #171717;
+  background-color: #ffffff;
+  padding: 18px 40px;
+  border-radius: 28px;
+  margin-left: 150px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-end {
+  display: flex;
+  vertical-align: middle;
+}
+.img1 {
+  max-width: 26px;
+  max-height: 26px;
+}
+.img2 {
+  max-width: 121px;
+  max-height: 35px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
